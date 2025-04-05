@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Fran\OneDrive\Escritorio\Fran\ImageCampus\2025\Ludum04052025\ProjectLudum05042025\main.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ProjectLudum05042025.vcxproj -> C:\Users\Fran\OneDrive\Escritorio\Fran\ImageCampus\2025\Ludum04052025\ProjectLudum05042025\Debug\ProjectLudum05042025.exe
