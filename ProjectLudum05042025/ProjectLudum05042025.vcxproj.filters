@@ -15,9 +15,11 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\game_play\GameRun.cpp" />
     <ClCompile Include="src\game_play\GameUI.cpp" />
+    <ClCompile Include="src\game_play\GameUI_Text.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\game_play\GameRun.h" />
     <ClInclude Include="src\game_play\GameUI.h" />
+    <ClInclude Include="src\game_play\GameUI_Text.h" />
   </ItemGroup>
 </Project>

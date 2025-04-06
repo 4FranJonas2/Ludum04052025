@@ -48,6 +48,11 @@ namespace LudumGame
 			dimentions.width = newWidth;
 		}
 
+		void UI_Element::SetActive(bool isActive)
+		{
+			this->isActive= isActive;
+		}
+
 		void UI_Element::SetColor(UI_Color newColor)
 		{
 			color = newColor;
@@ -63,27 +68,32 @@ namespace LudumGame
 
 		UI_Position LudumGame::UI::UI_Element::GetPosition()
 		{
-			return UI_Position();
+			return space.position;
 		}
 		UI_Rotation UI_Element::GetRotation()
 		{
-			return UI_Rotation();
+			return space.rotation;
 		}
 		UI_Scale UI_Element::GetScale()
 		{
-			return UI_Scale();
+			return space.scale;
 		}
 		UI_Space UI_Element::GetSpace()
 		{
-			return UI_Space();
+			return space;
 		}
 		UI_Dimentions UI_Element::GetDimentions()
 		{
-			return UI_Dimentions();
+			return dimentions;
 		}
 		UI_Color UI_Element::GetColor()
 		{
-			return UI_Color();
+			return color;
+		}
+
+		bool UI_Element::IsActive()
+		{
+			return isActive;
 		}
 	}
 }

@@ -1,6 +1,5 @@
 #pragma once
 #include "iostream"
-#include"raylib.h"
 
 namespace LudumGame
 {
@@ -51,6 +50,7 @@ namespace LudumGame
             UI_Space space;
             UI_Dimentions dimentions;
             UI_Color color;
+            bool isActive;
 
         public:
             std::string name;
@@ -63,6 +63,7 @@ namespace LudumGame
             void SetScale(int newScaleX, int newScaleY);
             void SetDimentions(UI_Dimentions newDim);
             void SetDimentions(int newWidth, int newHeight);
+            void SetActive(bool isActive);
 
             void SetColor(UI_Color newColor);
             void SetColor(int r, int g, int b, int a);
@@ -73,6 +74,7 @@ namespace LudumGame
             UI_Space GetSpace();
             UI_Dimentions GetDimentions();
             UI_Color GetColor();
+            bool IsActive();
         };
     }
 }
